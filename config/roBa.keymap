@@ -102,7 +102,7 @@
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LS(N8)                                                &kp LS(N9)        &kp AMPERSAND  &kp SQT    &kp ASTERISK       &kp DOLLAR
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp AT_SIGN  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp LEFT_BRACKET  &kp MINUS      &kp TILDE  &kp HASH           &kp PLUS
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD   &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp EQUAL      &kp EQUAL  &kp DOUBLE_QUOTES  &kp LS(BACKSLASH)
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD   &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp UNDER      &kp EQUAL  &kp DOUBLE_QUOTES  &kp LS(BACKSLASH)
 &trans                      &trans           &trans           &trans           &trans       &trans                       &trans          &trans                                                         &kp PIPE
             >;
         };
