@@ -163,6 +163,8 @@
 &kp F10  &kp F11  &kp F12  &trans  &kp LCTRL  &kp LEFT_ALT      &kp PAGE_DOWN  &kp LS(TAB)  &kp LEFT  &kp DOWN  &kp RIGHT  &kp QUESTION
 &trans   &trans   &trans   &trans  &trans     &trans            &kp DEL        &trans                                      &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         NUM_SYMBOL_windows {
