@@ -91,7 +91,7 @@
 
         FUNCTION_ALLOW_MOUSE_iPad {
             bindings = <
-&kp F1   &kp F2   &kp F3   &kp F4  &kp F5                                 &trans             &trans    &mo 5     &trans     &trans
+&kp F1   &kp F2   &kp F3   &kp F4  &kp F5                                 &trans             &mkp MB4  &mkp MB3  &mkp MB5   &trans
 &kp F6   &kp F7   &kp F8   &kp F9  &kp LEFT_BRACKET  &trans      &trans   &kp RIGHT_BRACKET  &mkp MB1  &kp UP    &mkp MB2   &kp LS(NUMBER_1)
 &kp F10  &kp F11  &kp F12  &trans  &kp LCTRL         &trans      &trans   &kp LS(MINUS)      &kp LEFT  &kp DOWN  &kp RIGHT  &kp QUESTION
 &trans   &trans   &trans   &trans  &trans            &trans      &kp DEL  &trans                                            &trans
@@ -120,9 +120,9 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &mo 5     &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &mkp MB4  &trans    &mo 5     &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB5  &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
@@ -158,10 +158,10 @@
 
         FUNCTION_ALLOW_MOUSE_windows {
             bindings = <
-&kp F1   &kp F2   &kp F3   &kp F4        &kp F5                                            &trans           &trans    &mo 5     &trans     &trans
-&kp F6   &kp F7   &kp F8   &kp F9        &kp LEFT_BRACKET  &trans       &kp LC(PAGE_UP)    &kp LC(TAB)      &mkp MB1  &kp UP    &mkp MB2   &kp LS(NUMBER_1)
-&kp F10  &kp F11  &kp F12  &kp LEFT_ALT  &kp LCTRL         &kp TAB      &kp LC(PAGE_DOWN)  &kp LS(LC(TAB))  &kp LEFT  &kp DOWN  &kp RIGHT  &kp QUESTION
-&trans   &trans   &trans   &trans        &trans            &trans       &kp DEL            &trans                                          &trans
+&kp F1   &kp F2   &kp F3   &kp F4        &kp F5                                        &trans           &mkp MB4  &mkp MB3  &mkp MB5   &trans
+&kp F6   &kp F7   &kp F8   &kp F9        &kp LEFT_BRACKET  &trans       &kp PAGE_UP    &kp LC(TAB)      &mkp MB1  &kp UP    &mkp MB2   &kp LS(NUMBER_1)
+&kp F10  &kp F11  &kp F12  &kp LEFT_ALT  &kp LCTRL         &kp TAB      &kp PAGE_DOWN  &kp LS(LC(TAB))  &kp LEFT  &kp DOWN  &kp RIGHT  &kp QUESTION
+&trans   &trans   &trans   &trans        &trans            &trans       &kp DEL        &trans                                          &trans
             >;
         };
 
